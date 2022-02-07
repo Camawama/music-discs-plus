@@ -6,6 +6,8 @@ run
 .settings
 .classpath
 .project
+.idea
+.idea\compiler.xml
 
 # gradle
 build
