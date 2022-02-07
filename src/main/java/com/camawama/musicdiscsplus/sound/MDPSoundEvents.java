@@ -19,7 +19,7 @@ public class MDPSoundEvents {
 
     // Register the 'Summer' music disc.
     public static final RegistryObject<SoundEvent> MUSIC_DISC_SUMMER = registerSoundEvent("music_disc.summer");
-    // More discs go here...
+    // More SoundEvents can go here...
 
     /**
      * Helper method for registering all SoundEvents.
