@@ -8,5 +8,55 @@
                 "stream": true
             }
         ]
+    },
+    "music_disc.synergy": {
+        "category": "record",
+        "sounds": [
+            {
+                "name": "musicdiscsplus:records/synergy",
+                "volume": 1.0,
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.zwelt": {
+        "category": "record",
+        "sounds": [
+            {
+                "name": "musicdiscsplus:records/zwelt",
+                "volume": 1.0,
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.maybe": {
+        "category": "record",
+        "sounds": [
+            {
+                "name": "musicdiscsplus:records/maybe",
+                "volume": 1.0,
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.jukebox": {
+        "category": "record",
+        "sounds": [
+            {
+                "name": "musicdiscsplus:records/jukebox",
+                "volume": 1.0,
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.climb": {
+        "category": "record",
+        "sounds": [
+            {
+                "name": "musicdiscsplus:records/climb",
+                "volume": 1.0,
+                "stream": true
+            }
+        ]
     }
 }
