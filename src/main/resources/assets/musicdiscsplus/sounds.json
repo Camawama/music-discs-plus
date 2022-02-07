@@ -1,0 +1,12 @@
+{
+    "music_disc.summer": {
+        "category": "record",
+        "sounds": [
+            {
+                "name": "musicdiscsplus:records/summer",
+                "volume": 1.0,
+                "stream": true
+            }
+        ]
+    }
+}

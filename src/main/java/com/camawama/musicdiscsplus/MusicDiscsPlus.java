@@ -1,22 +1,14 @@
-package com.camawama;
+package com.camawama.musicdiscsplus;
 
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import com.camawama.musicdiscsplus.sound.MDPSoundEvents;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(MusicDiscsPlus.MOD_ID)
@@ -29,6 +21,9 @@ public class MusicDiscsPlus {
     public MusicDiscsPlus() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        // Register SoundEvents
+        MDPSoundEvents.SOUND_EVENTS.register(modEventBus);
+
         // Register the setup method for modloading
         modEventBus.addListener(this::setup);
 
@@ -39,5 +34,12 @@ public class MusicDiscsPlus {
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
+    }
+
+    /**
+     * Helper method for getting files or registering Items/Mobs/SoundEvents/etc for the mod.
+     */
+    public static ResourceLocation locate(String name) {
+        return new ResourceLocation(MOD_ID, name);
     }
 }
