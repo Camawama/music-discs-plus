@@ -1,5 +1,6 @@
 package com.camawama.musicdiscsplus;
 
+import com.camawama.musicdiscsplus.item.MDPItems;
 import com.camawama.musicdiscsplus.sound.MDPSoundEvents;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +24,8 @@ public class MusicDiscsPlus {
 
         // Register SoundEvents
         MDPSoundEvents.SOUND_EVENTS.register(modEventBus);
+        // Register Items
+        MDPItems.ITEMS.register(modEventBus);
 
         // Register the setup method for modloading
         modEventBus.addListener(this::setup);
