@@ -1,0 +1,18 @@
+# eclipse
+bin
+Logs
+run
+*.launch
+.settings
+.classpath
+.project
+
+# gradle
+build
+.gradle
+
+# MAC
+src/main/.DS_Store
+.DS_Store
+
+src/generated/resources/.cache/cache
