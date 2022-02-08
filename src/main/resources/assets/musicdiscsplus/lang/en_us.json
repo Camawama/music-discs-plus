@@ -1,4 +1,14 @@
 {
     "item.musicdiscsplus.music_disc_summer": "Music Disc",
-    "item.musicdiscsplus.music_disc_summer.desc": "Cama - Summer"
+    "item.musicdiscsplus.music_disc_summer.desc": "Cama - summer",
+    "item.musicdiscsplus.music_disc_climb": "Music Disc",
+    "item.musicdiscsplus.music_disc_climb.desc": "Cama - climb",
+    "item.musicdiscsplus.music_disc_synergy": "Music Disc",
+    "item.musicdiscsplus.music_disc_synergy.desc": "Cama - synergy",
+    "item.musicdiscsplus.music_disc_jukebox": "Music Disc",
+    "item.musicdiscsplus.music_disc_jukebox.desc": "nezuai - jukebox",
+    "item.musicdiscsplus.music_disc_maybe": "Music Disc",
+    "item.musicdiscsplus.music_disc_maybe.desc": "nezuai - maybe",
+    "item.musicdiscsplus.music_disc_zwelt": "Music Disc",
+    "item.musicdiscsplus.music_disc_zwelt.desc": "nezuai - zwelt"
 }
