@@ -1,6 +1,11 @@
 {
     "replace": false,
     "values": [
-        "musicdiscsplus:music_disc_summer"
+        "musicdiscsplus:music_disc_climb",
+        "musicdiscsplus:music_disc_jukebox",
+        "musicdiscsplus:music_disc_maybe",
+        "musicdiscsplus:music_disc_summer",
+        "musicdiscsplus:music_disc_synergy",
+        "musicdiscsplus:music_disc_zwelt"
     ]
 }
