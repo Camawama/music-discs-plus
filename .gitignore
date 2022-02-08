@@ -2,6 +2,7 @@
 bin
 Logs
 run
+out
 *.launch
 .settings
 .classpath
