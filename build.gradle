@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.18.1-Alpha 0.0.1'
+version = '1.18.1-Alpha 0.0.4'
 group = 'com.camawama.musicdiscsplus' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'MusicDiscsPlus'
 

@@ -58,5 +58,15 @@
                 "stream": true
             }
         ]
+    },
+    "music_disc.flight": {
+        "category": "record",
+        "sounds": [
+            {
+                "name": "musicdiscsplus:records/flight",
+                "volume": 1.0,
+                "stream": true
+            }
+        ]
     }
 }

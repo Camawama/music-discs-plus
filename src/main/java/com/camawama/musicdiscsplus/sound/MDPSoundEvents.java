@@ -24,6 +24,7 @@ public class MDPSoundEvents {
     public static final RegistryObject<SoundEvent> MUSIC_DISC_MAYBE = registerSoundEvent("music_disc.maybe");
     public static final RegistryObject<SoundEvent> MUSIC_DISC_JUKEBOX = registerSoundEvent("music_disc.jukebox");
     public static final RegistryObject<SoundEvent> MUSIC_DISC_CLIMB = registerSoundEvent("music_disc.climb");
+    public static final RegistryObject<SoundEvent> MUSIC_DISC_FLIGHT = registerSoundEvent("music_disc.flight");
     // More discs go here...
 
     /**

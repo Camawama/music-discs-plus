@@ -31,6 +31,7 @@ public class MDPItems {
     public static final RegistryObject<Item> MUSIC_DISC_JUKEBOX = registerMusicDisc("music_disc_jukebox", 1, () -> MDPSoundEvents.MUSIC_DISC_JUKEBOX.get());
     public static final RegistryObject<Item> MUSIC_DISC_MAYBE = registerMusicDisc("music_disc_maybe", 1, () -> MDPSoundEvents.MUSIC_DISC_MAYBE.get());
     public static final RegistryObject<Item> MUSIC_DISC_ZWELT = registerMusicDisc("music_disc_zwelt", 1, () -> MDPSoundEvents.MUSIC_DISC_ZWELT.get());
+    public static final RegistryObject<Item> MUSIC_DISC_FLIGHT = registerMusicDisc("music_disc_flight", 1, () -> MDPSoundEvents.MUSIC_DISC_FLIGHT.get());
     // More music discs can go here...
 
     /**
