@@ -3,7 +3,6 @@ package com.camawama.musicdiscsplus.item;
 import com.camawama.musicdiscsplus.MusicDiscsPlus;
 import com.camawama.musicdiscsplus.sound.MDPSoundEvents;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,7 +21,8 @@ import java.util.function.Supplier;
  */
 public class MDPItems {
     // We call this in the main mod class to register all the Items at the right time.
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MusicDiscsPlus.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS =
+            DeferredRegister.create(ForgeRegistries.ITEMS, MusicDiscsPlus.MOD_ID);
 
     // Register the Item for the 'Summer' music disc.
     public static final RegistryObject<Item> MUSIC_DISC_SUMMER = registerMusicDisc("music_disc_summer", 1, () -> MDPSoundEvents.MUSIC_DISC_SUMMER.get());
@@ -42,7 +42,7 @@ public class MDPItems {
      */
     private static RegistryObject<Item> registerMusicDisc(String registryName, int comparatorStrength, Supplier<SoundEvent> soundEvent) {
         // Create a new music disc with the registry name and correct SoundEvent.
-        RecordItem musicDisc = new RecordItem(comparatorStrength, soundEvent, (new Item.Properties()).stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE));
+        RecordItem musicDisc = new RecordItem(comparatorStrength, soundEvent, (new Item.Properties()).stacksTo(1).tab(MDPTab.DISC_TAB).rarity(Rarity.RARE));
         // Register this music disc with the registry name.
         return registerItem(registryName, musicDisc);
     }
